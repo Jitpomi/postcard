@@ -10,3 +10,6 @@ members = [
     "source/postcard-schema",
     "source/postcard-schema-ng",
 ]
+
+[patch.crates-io]
+postcard = { path = "source/postcard" }
